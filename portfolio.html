@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SUDHARANI KUMMARI</title>
+  <link rel="icon" href="profile-pic.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">SUDHARANI KUMMARI</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">SUDHARANI KUMMARI</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="about">
+    <h1 class="title">About Me</h1>
+    <p>Hello! I'm Sudharani Kummari, passionate about web development and always eager to learn new technologies.</p>
+  </section>
+
+  <section id="experience">
+    <h1 class="title">Experience</h1>
+    <article>
+      <img src="checkmark.png" alt="Experience icon" class="icon" />
+      <div>
+        <h4>Web Development</h4>
+        <p>Intermediate</p>
+      </div>
+    </article>
+    <article>
+      <img src="checkmark.png" alt="Experience icon" class="icon" />
+      <div>
+        <h4>Python</h4>
+        <p>Basics</p>
+      </div>
+    </article>
+  </section>
+
+  <section id="projects">
+    <h1 class="title">Projects</h1>
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img src="project-placeholder.jpg" alt="Project image" class="project-img" />
+      </div>
+      <h2 class="experience-sub-title project-title">Design and Analysis of Two Switch Boost Converter</h2>
+      <p>This project focuses on improving power conversion efficiency using a two-switch boost converter design.</p>
+    </div>
+  </section>
+
+  <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'" />
+
+  <section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:kummarisudharani99@gmail.com">kummarisudharani99@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/kummari-sudha-rani-a90673259">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2025 SUDHARANI KUMMARI. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
